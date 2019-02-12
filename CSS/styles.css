@@ -10,9 +10,19 @@ hr {
   border-top-style: dotted;
   border-top-width: thick;
   border-top-color:#2c2837;
+  /*
+
+should have top bottom margin instead relying on other things
+  border-top-style: dotted 16px #2c2837 */
   }
 a {
   color: #11999E;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  }
+  a:hover{
+    color: purple
+    ;
   }
 h1 {
     font-size: 2.5rem;
@@ -44,19 +54,19 @@ h1 {
     color: #2c2837;
   }
   h4 {
-    padding:0;
-    margin: 0;
+
     font-family: 'Pacifico', cursive;
     color: #11999E;
     color: #2c2837;
-    position: relative;
-    left: 12%;
+
     }
 
   body {
     margin: 0;
     font-family: "Lato", sans-serif;
     text-align: center;
+    color:#0F0A3C ;
+    color: #33313b;
     /*if browser doesnt have verdana it will default to the browser default sans-serif
   can use websafe fonts the most common ones people have
   can set up a priority sytem by going to css font stack .
@@ -132,16 +142,33 @@ font-family: 'Cutive Mono', monospace;
   font-stretch: extra-expanded;
 }
 
+.TransistionTopMSToMain
+{
+  padding:0;
+  margin: 0 auto;
+  position: relative;
+  Text-align: right;
+  width: 40%;
 
 
-.EvidenceMS {
-  /* text-align: left; */
+}
+
+.EvidenceMSMain {
+  /*
+
+This isnt working nicely because of how the pictures work i need the pictures serparate from the text
+
+
 line-height: 1.8;
 position: static;
 padding-top: 5px;
 margin: 100px auto 10px auto;
 
-width: 50%;
+width: 70%;
+
+
+maybe useful to do a paragragh rule
+*/
 }
 
 
@@ -159,6 +186,7 @@ width: 10%;
 
 .EvidenceRowR{
   padding-right: 10%;
+
   padding-top:5px;
   padding-bottom:5px;
 }
@@ -172,7 +200,8 @@ width: 10%;
 }
 
 .EvidenceRowL{
-padding-left: 10%;
+
+  padding-left: 10%;
 padding-top:5px;
 padding-bottom:5px;
 
@@ -183,8 +212,38 @@ background-color: #b1bed5;
 margin:0;
 padding:20px;
 
+
+}
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #0266a8);
+  background-image: -moz-linear-gradient(top, #3498db,#0266a8);
+  background-image: -ms-linear-gradient(top, #3498db, #0266a8);
+  background-image: -o-linear-gradient(top, #3498db, #0266a8);
+  background-image: linear-gradient(to bottom, #3498db,#0266a8);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 8px;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  color:#2c2837;
 }
 .bottom-strip {
   margin: 0;
   border:  0;
   padding: 0;
+  background-color: #f3f8ff;
