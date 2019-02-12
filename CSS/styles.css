@@ -1,6 +1,190 @@
 
-div {background-color: #b1bed5}
 
-body{margin:0;}
 
-h1{margin-top: 0;}
+
+hr {
+  margin: 0 auto;
+  padding: 0;
+  width: 5%;
+
+  border-top-style: dotted;
+  border-top-width: thick;
+  border-top-color:#2c2837;
+  }
+a {
+  color: #11999E;
+  }
+h1 {
+    font-size: 2.5rem;
+    font-family: "Cutive Mono", monospace;
+    margin: 0;
+
+    /*40px; 250%;   2.5 em an em and 100% is 16px the percentage acculate as things are encansulate eg header in body so parentage applies decoration
+    rem is root em so you can dodge the ratio its objective ish
+       */
+         /*  - if you give a width property then the block uses its own align so then you can use margins
+  to get it where you want it
+  width:10%;
+  margin: 0 auto 0 auto;
+  same as   0 auto  */
+  }
+  .h1Subtitle {
+    font-weight: normal;
+    line-height: 1;}
+
+  h2 {
+    font-size: 1.3rem;
+    font-family: 'Pacifico', cursive;
+    color: #2c2837;
+  }
+
+  h3 {
+    font-family: 'Pacifico', cursive;
+    color: #11999E;
+    color: #2c2837;
+  }
+  h4 {
+    padding:0;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    color: #11999E;
+    color: #2c2837;
+    position: relative;
+    left: 12%;
+    }
+
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    /*if browser doesnt have verdana it will default to the browser default sans-serif
+  can use websafe fonts the most common ones people have
+  can set up a priority sytem by going to css font stack .
+
+  e.g.
+
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif
+
+  or fpnt google .com can do imbedding so will be seen whether installed on user browser or not
+
+
+  Pick just two fonts probably a serif header and sans body. get everythingt o one alignment
+  */
+    }
+
+
+
+
+
+
+
+/*
+
+Pacifico is too heavy to go with the others but like the form of it
+
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Neuton', serif;
+font-family: 'Cutive Mono', monospace;
+
+*/
+.top-container{
+  padding: 100px 0 0 0;
+  background-color: #b1bed5;}
+
+  .pro {
+    text-decoration: underline;}
+
+    .bottomCloud {
+      position: absolute;
+      left: 300px;
+      top: 300px;
+    }
+
+    .topCloud {
+      position: absolute;
+      top: 50px;
+      right: 350px;
+    }
+
+
+
+.middle-section{
+  margin: 0 auto;
+  padding-top:  5px;
+  background-color: #d2e5e3;
+
+}
+.profileTopMS{}
+
+.profileTopMSImage{
+  border-radius: 20%;
+  /*50% to make it round*/
+  width:10%;
+  padding: 10px;
+}
+
+.arrow{
+
+  font-size: 130% ;
+  font-weight:bolder;
+  font-stretch: extra-expanded;
+}
+
+
+
+.EvidenceMS {
+  /* text-align: left; */
+line-height: 1.8;
+position: static;
+padding-top: 5px;
+margin: 100px auto 10px auto;
+
+width: 50%;
+}
+
+
+/*dont really like the below
+
+if want some of it not to wrap I can use clear: left; it needs the left to be clear if it isnt it goes below
+only use float when wrapping text
+*/
+.EvidenceMSImagesL{
+
+  float: left;
+    margin-right: 30px;
+width: 10%;
+}
+
+.EvidenceRowR{
+  padding-right: 10%;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.EvidenceMSImagesR{
+
+  float: right;
+  margin-left: 30px;
+width: 10%;
+
+}
+
+.EvidenceRowL{
+padding-left: 10%;
+padding-top:5px;
+padding-bottom:5px;
+
+}
+
+.contact-me{
+background-color: #b1bed5;
+margin:0;
+padding:20px;
+
+}
+.bottom-strip {
+  margin: 0;
+  border:  0;
+  padding: 0;
