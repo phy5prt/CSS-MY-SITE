@@ -186,7 +186,7 @@ only use float when wrapping text
 
   float: left;
     margin-right: 30px;
-width: 10%;
+width: 10%;height: 10%;
 border-radius:50%;
 }
 
@@ -201,7 +201,7 @@ border-radius:50%;
 
   float: right;
   margin-left: 30px;
-width: 10%;
+width: 10%;height: 10%;
 border-radius:50%;
 
 }
